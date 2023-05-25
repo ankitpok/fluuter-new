@@ -1,3 +1,4 @@
+import 'package:frustrate_learn/pages/homepage.dart';
 import 'package:frustrate_learn/pages/loginpage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/":(context) => const LogIn(),
         "/Login":(context) => const LogIn(),
+        "/homepage":(context) => const HomePage()
       },
     );
   }
